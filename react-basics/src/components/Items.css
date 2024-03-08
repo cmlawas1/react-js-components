@@ -1,0 +1,46 @@
+/* contains layout for the cards portion */
+
+/* contains item cards that is flexible with screen dimensions */
+.flex-container {
+    display:flex;
+    padding:1%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+/* item card container */
+.item-container {
+    width: 20%;
+    background-color: rgb(255, 215, 238);
+    margin: 0.5%;
+    padding: 0.5%;
+}
+
+.item-pic {
+    width:100%;
+    height:auto;
+    aspect-ratio: 1;
+    object-fit:cover;
+}
+
+.item-name {
+    font-weight: bolder;
+}
+
+button {
+    cursor:pointer;
+    border: 1px solid #cd2381;
+    border-radius: 4px;
+    background-color: #cd2381;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    transition: all .2s ease-in;
+}
+
+/* changes color when cursor hovers over button */
+button:hover {
+    background-color: #ff87c9;
+    border: 1px solid #ff87c9;
+}
